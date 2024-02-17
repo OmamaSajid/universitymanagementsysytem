@@ -14,8 +14,17 @@ The University Desktop Application is a comprehensive tool designed to streamlin
 2. Open the project in Visual Studio or your preferred C# IDE.
 3. Ensure your SQL Server instance is running.
 4. Update the connection string in the `app.config` file to point to your SQL Server database.
-5. Ensure you use the provided database file included in the repository.
+5. Ensure you use the provided database file (myproject.bacpac) included in the repository.
 6. Build and run the application.
+
+## Importing Database to SQL Server
+1. Open SQL Server Management Studio (SSMS).
+2. Connect to your SQL Server instance.
+3. In the Object Explorer, right-click on the database where you want to import the University database.
+4. Select "Tasks" > "Import Data...".
+5. Follow the Import Wizard to specify the data source, destination, and mapping settings.
+6. Choose the provided database file (`myproject.bacpac`) as the data source.
+7. Complete the import process and verify that the database schema and data have been successfully imported.
 
 ## Usage
 1. Upon launching the application, log in using your administrator credentials.
