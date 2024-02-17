@@ -1,5 +1,5 @@
 University Desktop Application
-Description
+Description /n:
 The University Desktop Application is a comprehensive tool designed to streamline administrative tasks and enhance communication within the university community. Developed using C# and integrated with an SQL database, this application provides a user-friendly interface for managing student records, course information, faculty details, and more.
 
 Features
